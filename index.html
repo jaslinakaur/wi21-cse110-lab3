@@ -196,25 +196,54 @@
     
      <section>
        <h4>Thank you for visiting my website! I'd love for you to fill out this quick form as record that you were here!</h4>
-      <form>
-        <label for="name">Name name:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="email">Email Address:</label><br>
-        <input type="text" id="email" name="email">
-      </form>
+      <fieldset>
+        <legend>The Quick Form:</legend>
+        
+        <!-- name and email -->
+        <form>
+          <label for="name">Name name:</label><br>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email Address:</label><br>
+          <input type="text" id="email" name="email">
+        </form>
        
-      <label>Why did you visit this page?</label>
-      <select  name="why-visited-this-site" id="why">
-        <optgroup label="School">
-          <option value="forced">My Prof/Teacher forced me to</option>
-          <option value="to get ideas">To get ideas for my own page</option>
-        </optgroup>
-        <optgroup label="Other">
-          <option value="Employer">I'm checking out your work</option>
-          <option value="Non-human">I'm not human</option>
-        </optgroup>
-      </select>
-  
+        <!-- why visit drop down menu -->
+        <label>Why did you visit this page?</label>
+        <select  name="why-visited-this-site" id="why">
+          <optgroup label="School">
+            <option value="forced">My Prof/Teacher forced me to</option>
+            <option value="to get ideas">To get ideas for my own page</option>
+          </optgroup>
+          <optgroup label="Other">
+            <option value="Employer">I'm checking out your work</option>
+            <option value="Non-human">I'm not human</option>
+          </optgroup>
+        </select>
+        
+        <!-- fave lang -->
+        <label for="fave-lang">What is YOUR favorite programming language?</label>
+        <input list="fave-lang" id="fave-lang" name="fave-lang" />
+        <datalist id="languages">
+          <option value="Java">
+          <option value="Python">
+          <option value="C">
+          <option value="C++">
+          <option value="C#">
+          <option value="Go">
+        </datalist>
+
+        
+        
+        
+        <!-- free text box -->
+        <label for="feedback">Anything else you would like to tell me?</label>
+        <textarea id="feedback" name="feedback"
+                  rows="5" cols="33">
+        Type something here...
+        </textarea>
+        
+        
+       </fieldset>
       
     </section>
     
