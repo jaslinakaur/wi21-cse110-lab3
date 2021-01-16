@@ -198,19 +198,19 @@
           <col>
         </colgroup>
         <tr>
-            <td>Color</td>
+            <th>Color</th>
             <td>purple</td>
         </tr>
         <tr>
-            <td>Number</td>
+            <th>Number</th>
             <td>13</td>
         </tr>
         <tr>
-            <td>Season</td>
+            <th>Season</th>
             <td>Winter</td>
         </tr>
         <tr>
-            <td>Color</td>
+            <th>Color</th>
             <td>purple</td>
         </tr>
       </table>
@@ -223,14 +223,30 @@
       <fieldset>
         <legend>The Quick Form:</legend>
         
-        <!-- name and email -->
+        <!-- name, email, phone-num -->
         <form>
           <label for="name">Name name:</label><br>
           <input type="text" id="name" name="name"><br>
           <label for="email">Email Address:</label><br>
-          <input type="text" id="email" name="email">
+          <input type="email" id="email"
+                 pattern=".+@globex.com">
+          <label for="phone-num">Phone Number(optional):</label>
+          <input type="tel" id="phone-num" name="phone-num"
+                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
         </form>
        
+        <!-- age -->
+        <label for="age">Age:</label><br>
+          <input type="radio" id="first-range" name="age" value="15">
+          <label for="first-range">0 - 15</label><br>
+          <input type="radio" id="second-range" name="age" value="30">
+          <label for="second-range">16 - 30</label><br>  
+          <input type="radio" id="third-range" name="age" value="100">
+          <label for="third-range">31 - 100</label><br>
+        
+        
+        
+        
         <!-- why visit drop down menu -->
         <label>Why did you visit this page?</label>
         <select  name="why-visited-this-site" id="why">
@@ -258,6 +274,8 @@
           <option value="Go">
         </datalist>
 
+        
+        
         <br>
         
         
@@ -268,6 +286,27 @@
         Type something here...
         </textarea>
         
+        <!-- file upload -->
+        <label for="file">Feel free to upload a file:</label>
+        <input type="file" id="file" name="file">
+        
+        <!-- url -->
+        <label for="url">any webpages you recommend?</label>
+        <input type="url" name="url" id="url"
+               pattern="https://.*">
+        
+        <!-- prev fills -->
+        <label for="prev-fills">How many times have you previously filled out this form?</label><br>
+        <input type="number" id="prev-fills" name="prev-fills">
+        
+        <!-- date -->
+        <label>What's the date:</label><br>
+        <input type="date" id="todays-date" name="date">
+        
+        <!-- time -->
+        <input type="time" id="time" name="time">
+        
+        <!-- button -->
         <button>Submit</button>
         
        </fieldset>
