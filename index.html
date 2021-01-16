@@ -195,13 +195,25 @@
     
     
      <section>
-       <h4>Thank you for visiting my website! I'd love for you to leave your name as record that you were here!</h4>
+       <h4>Thank you for visiting my website! I'd love for you to fill out this quick form as record that you were here!</h4>
       <form>
         <label for="name">Name name:</label><br>
         <input type="text" id="name" name="name"><br>
         <label for="email">Email Address:</label><br>
         <input type="text" id="email" name="email">
       </form>
+       
+      <label for="why-visit">Why did you visit this page?</label>
+      <select  name="why-visited-this-site" id="why">
+        <optgroup label="School">
+          <option value="forced">My Prof/Teacher forced me to</option>
+          <option value="to get ideas">To get ideas for my own page</option>
+        </optgroup>
+        <optgroup label="Other">
+          <option value="Employer">I'm checking out your work</option>
+          <option value="Non-human">I'm not human</option>
+        </optgroup>
+      </select>
   
       
     </section>
@@ -219,9 +231,9 @@
         ctx.fillStyle='#1c87c9';
         ctx.fillRect(10,50,80,80);
       </script>
-      <p>The javascript code for creating the square was not written by me. It was found at https://www.w3docs.com/learn-html/html-canvas-tag.html#example-of-the-html-span-class-tag-lt-canvas-gt-span-tag-4</p>
+      <p>The javascript code for creating the square above was not written by me. It was found at https://www.w3docs.com/learn-html/html-canvas-tag.html#example-of-the-html-span-class-tag-lt-canvas-gt-span-tag-4</p>
       <svg width="50" height="50">
-        <circle cx="50" cy="70" r="40" stroke="pink" stroke-width="6" fill="orange"/>
+        <circle cx="50" cy="60" r="40" stroke="pink" stroke-width="2" fill="orange"/>
       </svg>
     </footer>
   
