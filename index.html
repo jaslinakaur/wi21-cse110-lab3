@@ -262,12 +262,13 @@
         
         
         <!-- free text box -->
-        <label for="feedback">Anything else you would like to tell me?</label>
+        <label for="feedback">Anything else you would like to tell me?</label><br>
         <textarea id="feedback" name="feedback"
                   rows="5" cols="40">
         Type something here...
         </textarea>
         
+        <button>Submit</button>
         
        </fieldset>
       
@@ -276,9 +277,10 @@
     
     <!-- copyright/author section in the footer -->
     <footer>
-      <p>
+      <details>
+        <summary>Author's Information</summary>
         <span class="author">This page was created solely by Jaslina Kochhar, student @ UCSD (Jan 2021)</span>
-      </p>
+      </details>
       <canvas id="canvasTag">This is the canvas tag being used.</canvas>
       <script>
         var c=document.getElementById('canvasExample');
@@ -290,6 +292,11 @@
       <svg width="50" height="50">
         <circle cx="50" cy="60" r="40" stroke="pink" stroke-width="2" fill="orange"/>
       </svg>
+      
+      <!-- the contents of template is hidden from users -->
+      <template>
+        <h3>Hi! You've found my hidden message!</h3>
+      </template>
     </footer>
   
   </body>
