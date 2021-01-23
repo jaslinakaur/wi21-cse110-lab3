@@ -1,15 +1,23 @@
-body {
-  font-size: 20px;
+* {
+  font-family: serif;
+  text-color: black;
+  text-align: center;
 
 }
+
+body {
+  font-size: 20px;
+}
+
 h1 {
-  
+  /* nothing added here because it is added in the <style> tags in the html file */
 
 }
 
 h2 {
   color: #6495ED; /*-- CornflowerBlue */
   font-size: 4ch;
+  text-decoration: underline;
   
 
 }
