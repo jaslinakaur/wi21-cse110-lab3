@@ -19,7 +19,10 @@ h3 {
 
 
 nav {
- color: rgb(0, 0, 139) /* DarkOrchid */
+ color: rgb(0, 0, 139); /* DarkOrchid */
+   border-style: solid;
+  border-color:blue;
+  border-width:.2mm;
   
 }
 
@@ -31,8 +34,8 @@ section {
 .border {
   border-style: solid;
   border-color: navy;
-  border-width: 15px;
-  border-radius: 25px;
+  border-width: 5px;
+  border-radius: 8pt;
   
 }
 
