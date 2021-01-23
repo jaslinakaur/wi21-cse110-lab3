@@ -8,21 +8,23 @@ h1 {
 }
 
 h2 {
-  color: #6495ED /*-- CornflowerBlue */
+  color: #6495ED; /*-- CornflowerBlue */
 
 }
 
 h3 {
- color: hsl(280, 61%, 50%) /* DarkSlateBlue */
+ color: hsl(280, 61%, 50%); /* DarkSlateBlue */
   
 }
 
 
 nav {
  color: rgb(0, 0, 139); /* DarkOrchid */
-   border-style: solid;
+  border-style: solid;
   border-color:blue;
   border-width:.2mm;
+  margin: auto;
+  padding: 30px 60px 30px 60px;
   
 }
 
@@ -31,12 +33,32 @@ section {
   
 }
 
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+#introduction {
+  margin: 50px 100px 50px 100px;
+}
+
+
 .border {
   border-style: solid;
   border-color: navy;
   border-width: 5px;
   border-radius: 8pt;
   
+}
+
+#myFavesTable {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+    
 }
 
 .superh1 {color: green; font-size: 32px}
