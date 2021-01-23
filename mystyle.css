@@ -149,3 +149,40 @@ a:active {
   align-items: center;
   
 }
+
+    
+/* all grouping selector types below */
+    
+/* descendant */
+div p {
+  color: blue;
+}
+    
+/* child */
+div > table {
+  background-color: LemonChiffon;
+  
+}
+    
+/* adjacent sibling */    
+h4 + p {
+  color: MediumBlue;
+}
+    
+
+/* general sibling */
+h2 ~ p {
+  color: MidnightBlue;
+}
+
+    
+/* combining */
+nav.h4 {
+  background-color: MintCream;  
+}
+    
+/* selector list */
+ol, ul {
+ color: darkgray;
+ font-family: georgia;
+}
