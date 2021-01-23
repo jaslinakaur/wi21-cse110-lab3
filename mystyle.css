@@ -126,5 +126,13 @@ a:active {
 }
 
 
-
+.container {
+  display:flex;
+  flex-direction:column;
+  flex-flow: row nowrap;
+  justify-content:center;
+  align-items:center;
+  
+  
+}
 
