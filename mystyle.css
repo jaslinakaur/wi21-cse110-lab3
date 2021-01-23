@@ -1,5 +1,5 @@
 body {
-
+  font-size: 20px;
 
 }
 h1 {
@@ -8,32 +8,63 @@ h1 {
 }
 
 h2 {
-  color: #6495ED /*-- CornflowerBlue */
+  color: #6495ED; /*-- CornflowerBlue */
+  font-size: 4ch;
+  
 
 }
 
 h3 {
- color: hsl(280, 61%, 50%) /* DarkSlateBlue */
-  
+ color: hsl(280, 61%, 50%); /* DarkSlateBlue */
+ font-size: 2em;
 }
 
 
 nav {
- color: rgb(0, 0, 139) /* DarkOrchid */
+ color: rgb(0, 0, 139); /* DarkOrchid */
+  border-style: solid;
+  border-color:blue;
+  border-width:.2mm;
+  margin: auto;
+  padding: 30px 60px 30px 60px;
   
 }
 
 section {
-  background-color: AliceBlue
+  background-color: AliceBlue;
   
 }
+
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+aside {
+  font-size: 110%; 
+}
+
+#introduction {
+  margin: 50px 100px 50px 100px;
+}
+
 
 .border {
   border-style: solid;
   border-color: navy;
-  border-width: 15px;
-  border-radius: 25px;
+  border-width: 5px;
+  border-radius: 8pt;
   
+}
+
+#myFavesTable {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+    
 }
 
 .superh1 {color: green; font-size: 32px}
@@ -41,6 +72,12 @@ section {
 
 #toph {color: blue}
 /* ID selector is very specific - should only be used ONCE in code */
+
+.genericBox {
+  height: 150px;
+  width: 900px;
+  border: 2px solid green;
+}
 
 
 
