@@ -3,6 +3,34 @@ body {
 
 }
 h1 {
-
+  
 
 }
+
+.superh1 {color: green; font-size: 32px}
+/* use .class selector anywhere */
+
+#toph {color: blue}
+/* ID selector is very specific - should only be used ONCE in code */
+
+/*
+<h1 class="superh1"> hello </h1>
+<h1 id="toph"> hello </h1>
+*/
+
+h2 {
+  color: #6495ED /*-- CornflowerBlue */
+
+}
+
+h3 {
+ color: hsl(280, 61%, 50%) /* DarkSlateBlue */
+  
+}
+
+
+nav {
+ color: rgb(0, 0, 139) /* DarkOrchid */
+  
+}
+
