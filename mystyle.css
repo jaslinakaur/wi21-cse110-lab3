@@ -54,6 +54,10 @@ aside {
   font-size: 110%; 
 }
 
+a[invisible_link] {
+  background-color: LavenderBlush;
+}
+  
 #introduction {
   margin: 50px 100px 50px 100px;
 }
@@ -86,6 +90,7 @@ aside {
   width: 900px;
   border: 2px solid green;
 }
+
 
 
 
