@@ -4,7 +4,7 @@
 
 What did you do yesterday?
 
-Learned a bunch of CSS commands/elements so that I would be better able to do this assignment.
+I learned a bunch of CSS commands/elements so that I would be better able to do this assignment.
 
 
 
