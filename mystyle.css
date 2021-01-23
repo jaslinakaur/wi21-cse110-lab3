@@ -11,7 +11,7 @@ body {
 
 h1 {
   /* nothing added here because it is added in the <style> tags in the html file */
- position:fixed;
+ position:sticky;
 }
 
 h2 {
