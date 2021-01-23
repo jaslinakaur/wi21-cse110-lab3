@@ -136,3 +136,12 @@ a:active {
   
 }
 
+.grid {
+  display:grid;
+  grid-template: none;
+  column-gap: 15px;
+  row-gap: 15px;
+  justify-items: center;
+  align-items: center;
+  
+}
