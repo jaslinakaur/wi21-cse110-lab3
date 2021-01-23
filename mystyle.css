@@ -5,13 +5,17 @@
 
 }
 
+@media screen and (min-width: 350px) {
+  body {
+    background-color: #FFFFF0 /* ivory */
+
 body {
   font-size: 20px;
 }
 
 h1 {
   /* nothing added here because it is added in the <style> tags in the html file */
- position:fixed;
+ position:sticky;
 }
 
 h2 {
@@ -56,6 +60,16 @@ aside {
 
 a[target] {
   background-color: LavenderBlush;
+}
+
+/* mouse moves over link */
+a:hover {
+  background-color:LightSeaGreen;
+}
+
+/* link is selected */
+a:active {
+ color: #FF6347
 }
   
 #introduction {
@@ -116,4 +130,22 @@ a[target] {
 }
 
 
+.container {
+  display:flex;
+  flex-direction:column;
+  flex-flow: row nowrap;
+  justify-content:center;
+  align-items:center;
+  
+  
+}
 
+.grid {
+  display:grid;
+  grid-template: none;
+  column-gap: 15px;
+  row-gap: 15px;
+  justify-items: center;
+  align-items: center;
+  
+}
