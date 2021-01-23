@@ -57,6 +57,16 @@ aside {
 a[target] {
   background-color: LavenderBlush;
 }
+
+/* mouse moves over link */
+a:hover {
+  background-color:LightSeaGreen;
+}
+
+/* link is selected */
+a:active {
+ color: #FF6347
+}
   
 #introduction {
   margin: 50px 100px 50px 100px;
@@ -114,6 +124,7 @@ a[target] {
 .quote {
   display: block;
 }
+
 
 
 
