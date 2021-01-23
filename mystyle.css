@@ -1,5 +1,5 @@
 * {
-  font-family: serif;
+  font-family: Bodoni Moda, serif;
   text-color: black;
   text-align: center;
 
@@ -89,6 +89,10 @@ a[target] {
   height: 150px;
   width: 900px;
   border: 2px solid green;
+}
+
+.lists {
+  text-align:left; 
 }
 
 
