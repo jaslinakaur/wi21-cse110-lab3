@@ -11,7 +11,7 @@ body {
 
 h1 {
   /* nothing added here because it is added in the <style> tags in the html file */
-
+ position:fixed;
 }
 
 h2 {
@@ -83,13 +83,16 @@ a[target] {
   color: green;
   font-size: 32px;
   display:inline;
+  max-width: 200%;
+  min-width: 30%;
   
 } /* use .class selector anywhere */
 
 
-#top {
+#coolId {
   color: blue;
   display: none;
+  position: static;
 } /* ID selector is very specific - should only be used ONCE in code */
 
 
