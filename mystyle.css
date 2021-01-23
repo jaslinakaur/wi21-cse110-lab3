@@ -7,17 +7,6 @@ h1 {
 
 }
 
-.superh1 {color: green; font-size: 32px}
-/* use .class selector anywhere */
-
-#toph {color: blue}
-/* ID selector is very specific - should only be used ONCE in code */
-
-/*
-<h1 class="superh1"> hello </h1>
-<h1 id="toph"> hello </h1>
-*/
-
 h2 {
   color: #6495ED /*-- CornflowerBlue */
 
@@ -38,4 +27,20 @@ section {
   background-color: AliceBlue
   
 }
+
+.border {
+  border-style: solid;
+  border-color: navy;
+  border-width: 15px;
+  border-radius: 25px;
+  
+}
+
+.superh1 {color: green; font-size: 32px}
+/* use .class selector anywhere */
+
+#toph {color: blue}
+/* ID selector is very specific - should only be used ONCE in code */
+
+
 
