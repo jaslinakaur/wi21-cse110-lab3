@@ -79,11 +79,19 @@ a[target] {
     
 }
 
-.superh1 {color: green; font-size: 32px}
-/* use .class selector anywhere */
+.superspecial {
+  color: green;
+  font-size: 32px;
+  display:inline;
+  
+} /* use .class selector anywhere */
 
-#toph {color: blue}
-/* ID selector is very specific - should only be used ONCE in code */
+
+#top {
+  color: blue;
+  display: none;
+} /* ID selector is very specific - should only be used ONCE in code */
+
 
 .genericBox {
   height: 150px;
@@ -95,6 +103,14 @@ a[target] {
   text-align:left; 
 }
 
+.author {
+  background-color: LightCyan;
+  display:inline-block;
+}
+
+.quote {
+  display: block;
+}
 
 
 
