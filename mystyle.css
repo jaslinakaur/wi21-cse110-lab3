@@ -1,5 +1,5 @@
 body {
-
+  font-size: 20px;
 
 }
 h1 {
@@ -9,12 +9,14 @@ h1 {
 
 h2 {
   color: #6495ED; /*-- CornflowerBlue */
+  font-size: 4ch;
+  
 
 }
 
 h3 {
  color: hsl(280, 61%, 50%); /* DarkSlateBlue */
-  
+ font-size: 2em;
 }
 
 
@@ -29,7 +31,7 @@ nav {
 }
 
 section {
-  background-color: AliceBlue
+  background-color: AliceBlue;
   
 }
 
@@ -38,6 +40,10 @@ p {
   margin-bottom: 30px;
   margin-right: 150px;
   margin-left: 150px;
+}
+
+aside {
+  font-size: 110%; 
 }
 
 #introduction {
@@ -66,6 +72,12 @@ p {
 
 #toph {color: blue}
 /* ID selector is very specific - should only be used ONCE in code */
+
+.genericBox {
+  height: 150px;
+  width: 900px;
+  border: 2px solid green;
+}
 
 
 
