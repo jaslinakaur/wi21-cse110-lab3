@@ -54,7 +54,7 @@ aside {
   font-size: 110%; 
 }
 
-a[invisible_link] {
+a[target] {
   background-color: LavenderBlush;
 }
   
